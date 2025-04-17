@@ -3,7 +3,6 @@ import { Component, Inject } from '@angular/core';
 import { DebugModeService, DebugModeComponent } from '@christophhu/ngx-debug-mode';
 import { Observable } from 'rxjs';
 import { FormBuilder, FormGroup } from '@angular/forms';
-// import { DebugModeComponent } from '../../../../ngx-debug-mode/src/public-api';
 
 @Component({
   selector: 'app-template',
@@ -23,7 +22,7 @@ export class TemplateComponent {
   // needed for custom toggle button
   // form: FormGroup
 
-  constructor(@Inject(DebugModeService) _debugModeService: DebugModeService, private _fb: FormBuilder) {
+  constructor(@Inject(DebugModeService) _debugModeService: DebugModeService) {
     this._debugModeService = _debugModeService
 
     // this.form = this._fb.group({
@@ -31,8 +30,8 @@ export class TemplateComponent {
     // })
   }
 
-  toggleTheme() {
-    this._debugModeService.toggleTheme()
+  toggleDebug() {
+    this._debugModeService.toggleDebug()
   }
   getTheme(): Observable<boolean> {
     return this._debugModeService.debug$
