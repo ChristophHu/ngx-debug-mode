@@ -1,0 +1,23 @@
+body[data-debug="false"]
+    .debug-item-hide
+            display: none
+
+body[data-debug="true"]
+    .debug-item-hide
+        display: block
+
+.toggle
+    input[type="checkbox"]
+
+        &:checked
+            + .switch-core
+                background-color: var(--accent)
+
+                .switch-button
+                    transform: translateX(1.5rem)
+
+    .switch-core
+        background-color: var(--label)
+
+        .switch-button
+            background-color: var(--light)
