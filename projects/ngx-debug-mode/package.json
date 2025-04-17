@@ -1,12 +1,35 @@
 {
-  "name": "ngx-debug-mode",
-  "version": "0.0.1",
+  "name": "@christophhu/ngx-debug-mode",
+  "version": "19.2.1",
+  "description": "Angular debug mode toggle library for toggling with local storage support.",
+  "license": "MIT",
+  "author": {
+    "name": "Christoph Huschenhoefer",
+    "email": "christoph@nxt.codes"
+  },
+  "keywords": [
+    "angular",
+    "debugmode",
+    "debug",
+    "localstorage"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christophhu/ngx-debug-mode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/christophhu/ngx-debug-mode/issues"
+  },
+  "homepage": "https://github.com/christophhu/ngx-debug-mode#readme",
   "peerDependencies": {
     "@angular/common": "^19.2.0",
     "@angular/core": "^19.2.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
-  },
-  "sideEffects": false
+  }
 }

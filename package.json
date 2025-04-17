@@ -1,6 +1,6 @@
 {
   "name": "ngx-debug-mode",
-  "version": "0.0.0",
+  "version": "19.2.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,8 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "preprocess": "ng build ngx-debug-mode",
-    "publish": "cd dist/ngx-dark-mode-toggle && npm publish --access public"
-
+    "publish": "cd dist/ngx-debug-mode && npm publish --access public"
   },
   "private": true,
   "dependencies": {
@@ -20,6 +19,8 @@
     "@angular/platform-browser": "^19.2.0",
     "@angular/platform-browser-dynamic": "^19.2.0",
     "@angular/router": "^19.2.0",
+    "@christophhu/ngx-debug-mode": "^19.2.1",
+    "@christophhu/ngx-github-pages-demo": "^19.2.8",
     "@tailwindcss/postcss": "^4.1.4",
     "postcss": "^8.5.3",
     "rxjs": "~7.8.0",
