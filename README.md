@@ -14,7 +14,7 @@
 
 ## Description
 This Repository contains a simple Angular library for toggling the debug mode. It is designed to be easy to use and integrate into any Angular application.
-It uses the `localStorage`-API to save the user's preference for debug mode, so that the setting persists across page reloads.
+It uses the `localStorage`-API to save the user's preference for debug mode, so that the setting persists across page reloads. The library is easy to use and can be installed via [npm](https://www.npmjs.com/package/@christophhu/ngx-debug-mode).
 
 ## Installation
 ```bash
